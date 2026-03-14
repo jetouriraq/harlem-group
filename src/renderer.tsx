@@ -504,6 +504,7 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
   color: var(--white); padding: 15px 34px;
   border: 1px solid rgba(255,255,255,.22); border-radius: var(--radius);
   position: relative; overflow: hidden; transition: color .4s, border-color .4s;
+  margin-top: 40px;
 }
 .hero-btn::before {
   content: ''; position: absolute; inset: 0;

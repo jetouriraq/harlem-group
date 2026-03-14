@@ -56,17 +56,10 @@ app.get('/', (c) => {
             <span class="hero-line"><span class="hero-word w1">HARLEM</span></span>
             <span class="hero-line"><span class="hero-word w3">Excellence.</span></span>
           </h1>
-          <div class="hero-row2">
-            <div class="hero-right">
-              <p class="hero-desc">
-                A beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation — spanning Iraq, UAE, USA, and Jordan.
-              </p>
-              <a href="#founder" class="hero-btn">
-                <span>Discover Our Story</span>
-                <span class="hero-btn-arr">→</span>
-              </a>
-            </div>
-          </div>
+          <a href="#founder" class="hero-btn">
+            <span>Discover Our Story</span>
+            <span class="hero-btn-arr">→</span>
+          </a>
         </div>
 
         <div class="hero-scroll" aria-hidden="true">
