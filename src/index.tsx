@@ -751,9 +751,7 @@ app.get('/', (c) => {
               <span>Contact Us</span>
               <span>→</span>
             </a>
-            <a href="#divisions" class="btn-outline-w">
-              <span>Our Divisions</span>
-            </a>
+
           </div>
         </div>
       </section>
