@@ -2258,14 +2258,7 @@ app.get('/locations', (c) => {
           IRAQ
       ══════════════════════════════════════════ */}
       <section class="loc-country" data-country="iraq" id="loc-iraq">
-        <div class="loc-country-banner loc-country-banner--video">
-          <iframe
-            class="loc-country-banner-video"
-            src="https://www.youtube.com/embed/Vh2gadJW51U?autoplay=1&mute=1&loop=1&playlist=Vh2gadJW51U&controls=0&showinfo=0&rel=0&modestbranding=1"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-          ></iframe>
+        <div class="loc-country-banner" style="background-image:url('/static/iraq-hero.jpg')">
           <div class="loc-country-banner-shade"></div>
           <div class="container loc-country-banner-inner">
             <div class="loc-country-tag">01 / 04</div>
