@@ -2309,11 +2309,7 @@ app.get('/locations', (c) => {
 
         {/* ── IRAQ: Commercial Agencies ── */}
         <div class="container">
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Commercial Agencies</span>
-            <span class="loc-cat-count">5 brands</span>
-          </div>
+
 
           <div class="loc-location-grid">
 
@@ -2428,10 +2424,6 @@ app.get('/locations', (c) => {
           </div>{/* /loc-location-grid — commercial agencies */}
 
           {/* ── IRAQ: Multi-brand Showrooms ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Multi-brand Showrooms</span>
-          </div>
           <div class="loc-location-grid">
             <div class="lloc-card r">
               <div class="lloc-slider">
@@ -2458,11 +2450,7 @@ app.get('/locations', (c) => {
           </div>
 
           {/* ── IRAQ: Leather & Upholstery ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Leather &amp; Upholstery Factory</span>
-            <span class="loc-cat-count">Iraq's Only</span>
-          </div>
+
           <div class="loc-location-grid">
             <div class="lloc-card lloc-card--featured r">
               <div class="lloc-slider">
@@ -2516,11 +2504,7 @@ app.get('/locations', (c) => {
 
         <div class="container">
           {/* ── Jordan: Commercial Agencies ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Commercial Agencies</span>
-            <span class="loc-cat-count">1 brand</span>
-          </div>
+
           <div class="loc-location-grid">
 
             <div class="lloc-card lloc-card--featured r">
@@ -2579,11 +2563,7 @@ app.get('/locations', (c) => {
 
         <div class="container">
           {/* ── UAE: Multi-brand Showrooms ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Multi-brand Showrooms</span>
-            <span class="loc-cat-count">Dubai — DUCAMZ</span>
-          </div>
+
           <div class="loc-location-grid">
 
             <div class="lloc-card r">
@@ -2633,11 +2613,7 @@ app.get('/locations', (c) => {
           </div>
 
           {/* ── UAE: Central Regional Stockyard ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Central Regional Stockyard</span>
-            <span class="loc-cat-count">Jebel Ali Free Zone</span>
-          </div>
+
           <div class="loc-location-grid">
             <div class="lloc-card lloc-card--dark r">
               <div class="lloc-slider">
@@ -2694,11 +2670,7 @@ app.get('/locations', (c) => {
 
         <div class="container">
           {/* ── USA: Commercial Agencies ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Commercial Agencies</span>
-            <span class="loc-cat-count">Illinois</span>
-          </div>
+
           <div class="loc-location-grid">
 
             <div class="lloc-card lloc-card--featured r" style="grid-column: span 2;">
