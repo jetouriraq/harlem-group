@@ -2198,28 +2198,50 @@ app.get('/locations', (c) => {
       <section class="loc-hero">
         <div class="loc-hero-bg"></div>
         <div class="loc-hero-imgs">
-          <div class="loc-hero-img" style="background-image:url('/static/iraq-hero.jpg')"></div>
-          <div class="loc-hero-img loc-hero-img--2" style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80')"></div>
-          <div class="loc-hero-img loc-hero-img--3" style="background-image:url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1400&q=80')"></div>
-          <div class="loc-hero-img loc-hero-img--4" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1400&q=80')"></div>
+          <div class="loc-hero-img active" id="lhi-iraq"   style="background-image:url('/static/iraq-hero.jpg')"></div>
+          <div class="loc-hero-img"        id="lhi-jordan" style="background-image:url('/static/jordan-hero.jpg')"></div>
+          <div class="loc-hero-img"        id="lhi-uae"    style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1600&q=80')"></div>
+          <div class="loc-hero-img"        id="lhi-usa"    style="background-image:url('/static/usa-hero.jpg')"></div>
         </div>
         <div class="loc-hero-overlay"></div>
         <div class="loc-hero-grid"></div>
+        <div class="loc-hero-active-label"><span id="loc-hero-country-name">Iraq</span></div>
         <div class="container loc-hero-inner">
           <div class="loc-hero-tag r">Global Presence</div>
           <h1 class="loc-hero-h1 r d1">Our <em>Locations</em></h1>
           <p class="loc-hero-sub r d2">Four countries. Forty-five facilities. One uncompromising standard of excellence — spanning Iraq, Jordan, UAE, and USA since 1995.</p>
           <div class="loc-hero-countries r d3">
-            <a href="#loc-iraq"   class="loc-hero-ctry"><img src="/static/flags/iraq.png"   alt="Iraq"/>   Iraq</a>
-            <a href="#loc-jordan" class="loc-hero-ctry"><img src="/static/flags/jordan.png" alt="Jordan"/> Jordan</a>
-            <a href="#loc-uae"    class="loc-hero-ctry"><img src="/static/flags/uae.png"    alt="UAE"/>    UAE</a>
-            <a href="#loc-usa"    class="loc-hero-ctry"><img src="/static/flags/usa.png"    alt="USA"/>    USA</a>
+            <a href="#loc-iraq"   class="loc-hero-ctry active" data-img="lhi-iraq"   onclick="setLocHero('iraq','Iraq',this)"><img src="/static/flags/iraq.png"   alt="Iraq"/>   Iraq</a>
+            <a href="#loc-jordan" class="loc-hero-ctry"        data-img="lhi-jordan" onclick="setLocHero('jordan','Jordan',this)"><img src="/static/flags/jordan.png" alt="Jordan"/> Jordan</a>
+            <a href="#loc-uae"    class="loc-hero-ctry"        data-img="lhi-uae"    onclick="setLocHero('uae','UAE',this)"><img src="/static/flags/uae.png"    alt="UAE"/>    UAE</a>
+            <a href="#loc-usa"    class="loc-hero-ctry"        data-img="lhi-usa"    onclick="setLocHero('usa','USA',this)"><img src="/static/flags/usa.png"    alt="USA"/>    USA</a>
           </div>
         </div>
         <div class="loc-hero-scroll">
           <span>Scroll</span>
           <div class="loc-hero-scroll-line"></div>
         </div>
+        <script>{`
+          function setLocHero(country, label, el) {
+            // switch image
+            document.querySelectorAll('.loc-hero-img').forEach(function(img){ img.classList.remove('active'); });
+            document.getElementById('lhi-' + country).classList.add('active');
+            // switch label
+            document.getElementById('loc-hero-country-name').textContent = label;
+            // switch active pill
+            document.querySelectorAll('.loc-hero-ctry').forEach(function(a){ a.classList.remove('active'); });
+            el.classList.add('active');
+          }
+          // auto-rotate
+          var _lhc = ['iraq','jordan','uae','usa'];
+          var _lhl = ['Iraq','Jordan','UAE','USA'];
+          var _lhi = 0;
+          setInterval(function(){
+            _lhi = (_lhi + 1) % 4;
+            var a = document.querySelectorAll('.loc-hero-ctry')[_lhi];
+            setLocHero(_lhc[_lhi], _lhl[_lhi], a);
+          }, 4000);
+        `}</script>
       </section>
 
       {/* ══════════ STATS STRIP ══════════ */}
