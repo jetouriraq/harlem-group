@@ -2611,9 +2611,7 @@ app.get('/locations', (c) => {
             <div class="lloc-card r d1">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1486496572940-2bb2341fdbdf?w=800&q=80')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/uae-showrooms/atlantic-motors-uae.jpg')"></div>
                 </div>
                 <div class="lloc-photo-shade"></div>
                 <div class="lloc-country-chip"><img src="/static/flags/uae.png" alt=""/>UAE</div>
