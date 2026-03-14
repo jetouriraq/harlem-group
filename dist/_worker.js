@@ -391,8 +391,8 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
 ═══════════════════════════════════════════════ */
 #hero {
   position: relative;
-  height: 100vh; min-height: 740px;
-  display: flex; align-items: center;
+  height: 70vh; min-height: 520px;
+  display: flex; align-items: flex-start;
   overflow: hidden;
   background: var(--black);
 }
@@ -441,7 +441,7 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
 
 .hero-inner {
   position: relative; z-index: 10;
-  width: 100%; padding: 0 80px; padding-top: var(--nav-h);
+  width: 100%; padding: 0 80px; padding-top: calc(var(--nav-h) + 32px);
 }
 .hero-tag {
   display: inline-flex; align-items: center; gap: 16px; margin-bottom: 32px;
