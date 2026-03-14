@@ -2795,38 +2795,6 @@ app.get('/locations', (c) => {
             </div>
           </div>
 
-          {/* ── USA: Certified Service Center ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Certified Multi-Brand Service Center</span>
-          </div>
-          <div class="loc-location-grid">
-            <div class="lloc-card lloc-card--dark r">
-              <div class="lloc-slider">
-                <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1619767886558-efdc259b6e09?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80')"></div>
-                </div>
-                <div class="lloc-photo-shade"></div>
-                <div class="lloc-country-chip"><img src="/static/flags/usa.png" alt=""/>USA</div>
-                <div class="lloc-featured-ribbon">Certified</div>
-                <button class="lloc-arrow lloc-arrow--prev" aria-label="Previous photo">&#8249;</button>
-                <button class="lloc-arrow lloc-arrow--next" aria-label="Next photo">&#8250;</button>
-                <div class="lloc-dots"></div>
-              </div>
-              <div class="lloc-body">
-                <div class="lloc-type">Certified Independent Multi-Brand Service</div>
-                <h3 class="lloc-name">Jidd Motors Service Center</h3>
-                <div class="lloc-cities">
-                  <span class="lloc-city-dot"></span>
-                  Chicago, Illinois
-                </div>
-                <p class="lloc-desc"><strong>Certified independent multi-brand service center</strong> in Chicago — professional vehicle repair and maintenance to the highest quality standards. Expert technicians, state-of-the-art equipment, and a commitment to restoring every vehicle to its optimal condition.</p>
-              </div>
-            </div>
-          </div>
-
 
         </div>{/* /container USA */}
       </section>
