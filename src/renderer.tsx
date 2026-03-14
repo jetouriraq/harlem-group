@@ -2722,11 +2722,7 @@ footer {
   font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
   font-weight: 700; color: var(--charcoal);
 }
-.loc-cat-count {
-  margin-left: auto; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
-  color: var(--gold); font-weight: 600;
-  padding: 4px 12px; border: 1px solid rgba(184,146,74,.3); border-radius: 2px;
-}
+.loc-cat-count { display: none; }
 
 /* ── Location cards grid ── */
 .loc-location-grid {
@@ -2746,7 +2742,7 @@ footer {
   box-shadow: 0 20px 60px rgba(0,0,0,.12);
 }
 .lloc-card--dark { background: var(--panel); border-color: rgba(184,146,74,.2); }
-.lloc-card--featured { border-color: rgba(184,146,74,.5); }
+.lloc-card--featured { }
 
 /* card photo */
 /* ── Location card slider ── */
@@ -2768,8 +2764,8 @@ footer {
   transition: opacity .6s ease;
 }
 .lloc-slide.active { opacity: 1; }
-/* Featured (wide) card gets taller slider */
-.lloc-card--featured .lloc-slider { height: 360px; }
+/* Featured card same height as regular cards */
+.lloc-card--featured .lloc-slider { }
 
 /* arrows */
 .lloc-arrow {
@@ -2825,13 +2821,7 @@ footer {
   color: rgba(255,255,255,.85); font-weight: 500;
 }
 .lloc-country-chip img { width: 16px; height: 11px; object-fit:cover; border-radius:1px; }
-.lloc-featured-ribbon {
-  position: absolute; top: 14px; left: 14px;
-  z-index: 4;
-  background: var(--gold); color: var(--black);
-  font-size: 8.5px; letter-spacing: 2px; text-transform: uppercase;
-  font-weight: 700; padding: 4px 10px; border-radius: 2px;
-}
+.lloc-featured-ribbon { display: none; }
 
 /* card body */
 .lloc-body {
