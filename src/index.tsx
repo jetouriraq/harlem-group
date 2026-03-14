@@ -227,28 +227,6 @@ app.get('/', (c) => {
 
 
 
-      {/* ══════════ IMAGE STRIP ══════════ */}
-      <div class="img-strip" aria-hidden="true">
-        <div class="img-strip-t">
-          {[
-            'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=640&q=70',
-            'https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=640&q=70',
-            'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=640&q=70',
-            'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=640&q=70',
-            'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?w=640&q=70',
-            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=640&q=70',
-            'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=640&q=70',
-            'https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=640&q=70',
-            'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=640&q=70',
-            'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=640&q=70',
-            'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?w=640&q=70',
-            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=640&q=70',
-          ].map((url)=>(
-            <div class="strip-item" style={`background-image:url('${url}')`}></div>
-          ))}
-        </div>
-      </div>
-
       {/* ══════════ AUTOMOTIVE BRANDS ══════════ */}
       <section id="brands">
         <div class="container">
