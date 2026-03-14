@@ -94,7 +94,7 @@ app.get('/', (c) => {
               </blockquote>
               <div class="founder-body r d3">
                 <p>
-                  Founded in 1995, Harlem Group has grown from a single automotive agency in Iraq into a diversified multinational group spanning <strong>four countries</strong> — Iraq, the UAE, the USA, and Jordan. With over <strong>45 global facilities</strong> and partnerships with <strong>12 world-class automotive brands</strong>, we have redefined what excellence means in every market we enter.
+                  Founded in 1995, Harlem Group has grown from a single automotive agency in Iraq into a diversified multinational group spanning <strong>four countries</strong> — Iraq, Jordan, the UAE, and the USA. With over <strong>45 global facilities</strong> and partnerships with <strong>12 world-class automotive brands</strong>, we have redefined what excellence means in every market we enter.
                 </p>
                 <p>
                   Our philosophy is simple: quality is not a standard we meet — it is the promise we make to every customer, every partner, and every community we serve. Across Automotive, Real Estate, and Management Consultation, this promise remains the heart of everything Harlem Group does.
@@ -130,10 +130,10 @@ app.get('/', (c) => {
       <div class="ticker" aria-hidden="true">
         <div class="ticker-t">
           {['Automotive','Real Estate','Management Consultation',
-            'Iraq','UAE','USA','Jordan','45+ Facilities','12 Automotive Partners',
+            'Iraq','Jordan','UAE','USA','45+ Facilities','12 Automotive Partners',
             '30+ Years of Excellence','Quality You Deserve!',
             'Automotive','Real Estate','Management Consultation',
-            'Iraq','UAE','USA','Jordan','45+ Facilities','12 Automotive Partners',
+            'Iraq','Jordan','UAE','USA','45+ Facilities','12 Automotive Partners',
             '30+ Years of Excellence','Quality You Deserve!'].map((t)=>(
             <span class="t-item">{t}<span class="t-sep">✦</span></span>
           ))}
@@ -164,7 +164,7 @@ app.get('/', (c) => {
             <div class="acc-content">
               <div class="acc-num">01 / 03</div>
               <h3 class="acc-title">Automotive Division</h3>
-              <p class="acc-desc">As exclusive distributors of premier automotive brands, we have redefined the automotive ownership experience since 1995. commercial agencies, multi-brand showrooms, car rental, certified independent multi-brand service centers, and more across Iraq, UAE, USA &amp; Jordan.</p>
+              <p class="acc-desc">As exclusive distributors of premier automotive brands, we have redefined the automotive ownership experience since 1995. commercial agencies, multi-brand showrooms, car rental, certified independent multi-brand service centers, and more across Iraq, Jordan, UAE &amp; USA.</p>
               <a href="#auto-services" class="acc-link">Explore Division →</a>
             </div>
           </div>
@@ -256,7 +256,7 @@ app.get('/', (c) => {
             <div class="tag r" style="justify-content:center">Automotive Partners</div>
             <h2 class="h2 r d1">12 World-Class <em>Partners</em></h2>
             <p class="brands-desc r d2">
-              Harlem Group is the exclusive distributor for 12 globally leading automotive brands across Iraq, Jordan, and the USA — from premium American muscle to innovative Chinese SUVs and Italian luxury.
+              Harlem Group is the exclusive distributor for 12 globally leading automotive brands across Iraq, Jordan, the UAE, and the USA — from premium American muscle to innovative Chinese SUVs and Italian luxury.
             </p>
           </div>
           <div class="brands-grid">
@@ -764,7 +764,7 @@ app.get('/', (c) => {
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">
-                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
@@ -802,7 +802,7 @@ app.get('/', (c) => {
                 </div>
                 <div>
                   <div class="ft-contact-lbl">Operations</div>
-                  <div class="ft-contact-val">Iraq · UAE · USA · Jordan</div>
+                  <div class="ft-contact-val">Iraq · Jordan · UAE · USA</div>
                 </div>
               </div>
             </div>
@@ -1252,7 +1252,7 @@ app.get('/highlights', (c) => {
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">
-                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
@@ -1290,7 +1290,7 @@ app.get('/highlights', (c) => {
                 </div>
                 <div>
                   <div class="ft-contact-lbl">Operations</div>
-                  <div class="ft-contact-val">Iraq · UAE · USA · Jordan</div>
+                  <div class="ft-contact-val">Iraq · Jordan · UAE · USA</div>
                 </div>
               </div>
             </div>
@@ -1593,7 +1593,7 @@ app.get('/purpose', (c) => {
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">
-                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
@@ -1631,7 +1631,7 @@ app.get('/purpose', (c) => {
                 </div>
                 <div>
                   <div class="ft-contact-lbl">Operations</div>
-                  <div class="ft-contact-val">Iraq · UAE · USA · Jordan</div>
+                  <div class="ft-contact-val">Iraq · Jordan · UAE · USA</div>
                 </div>
               </div>
             </div>
@@ -1815,7 +1815,7 @@ app.get('/news', (c) => {
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">
-                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
@@ -1853,7 +1853,7 @@ app.get('/news', (c) => {
                 </div>
                 <div>
                   <div class="ft-contact-lbl">Operations</div>
-                  <div class="ft-contact-val">Iraq · UAE · USA · Jordan</div>
+                  <div class="ft-contact-val">Iraq · Jordan · UAE · USA</div>
                 </div>
               </div>
             </div>
@@ -1950,7 +1950,7 @@ app.get('/careers', (c) => {
           <div class="tag on-dark r">Join Our Team</div>
           <h1 class="car-hero-h1 r d1">Build Your Career<br/><em>With Harlem Group</em></h1>
           <p class="car-hero-sub r d2">
-            Join a team of professionals shaping industries across Iraq, UAE, USA and Jordan.
+            Join a team of professionals shaping industries across Iraq, Jordan, UAE and USA.
             We invest in people who are driven, curious, and committed to excellence.
           </p>
           <div class="car-hero-btns r d3">
@@ -1969,7 +1969,7 @@ app.get('/careers', (c) => {
           <h2 class="h2 r d1" style="text-align:center">Where Talent <em>Thrives</em></h2>
           <div class="car-why-grid">
             {[
-              { icon:'◈', title:'Global Exposure', body:'Work across four countries — Iraq, UAE, USA, and Jordan — gaining unmatched regional and international experience.' },
+              { icon:'◈', title:'Global Exposure', body:'Work across four countries — Iraq, Jordan, UAE, and USA — gaining unmatched regional and international experience.' },
               { icon:'◇', title:'Growth & Learning', body:'Structured career paths, mentorship programmes, and continuous learning opportunities at every level.' },
               { icon:'◉', title:'Diverse Divisions', body:'From automotive showrooms to real estate ventures and management consulting — find your fit across multiple industries.' },
               { icon:'◈', title:'Inclusive Culture', body:'A workplace that celebrates diversity, local heritage, and the collective strength of our multicultural team.' },
@@ -2071,7 +2071,7 @@ app.get('/careers', (c) => {
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">
-                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
@@ -2109,7 +2109,7 @@ app.get('/careers', (c) => {
                 </div>
                 <div>
                   <div class="ft-contact-lbl">Operations</div>
-                  <div class="ft-contact-val">Iraq · UAE · USA · Jordan</div>
+                  <div class="ft-contact-val">Iraq · Jordan · UAE · USA</div>
                 </div>
               </div>
             </div>
@@ -2230,7 +2230,7 @@ app.get('/locations', (c) => {
         <div class="container loc-hero-inner">
           <div class="loc-hero-tag r">Global Presence</div>
           <h1 class="loc-hero-h1 r d1">Our <em>Locations</em></h1>
-          <p class="loc-hero-sub r d2">Four countries. Forty-five facilities. One uncompromising standard of excellence — spanning Iraq, UAE, USA, and Jordan since 1995.</p>
+          <p class="loc-hero-sub r d2">Four countries. Forty-five facilities. One uncompromising standard of excellence — spanning Iraq, Jordan, UAE, and USA since 1995.</p>
           <div class="loc-hero-countries r d3">
             <a href="#loc-iraq"   class="loc-hero-ctry"><img src="/static/flags/iraq.png"   alt="Iraq"/>   Iraq</a>
             <a href="#loc-jordan" class="loc-hero-ctry"><img src="/static/flags/jordan.png" alt="Jordan"/> Jordan</a>
@@ -2837,7 +2837,7 @@ app.get('/locations', (c) => {
             <div>
               <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
               <div class="ft-slogan">Quality You Deserve!</div>
-              <p class="ft-about">Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, UAE, USA, and Jordan.</p>
+              <p class="ft-about">Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.</p>
               <div class="ft-socials">
                 <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
                 <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
@@ -2869,7 +2869,7 @@ app.get('/locations', (c) => {
               <div class="ft-col-h">Contact</div>
               <div class="ft-contact-row">
                 <div><div class="ft-contact-lbl">Email</div><div class="ft-contact-val">info@harlem.group</div></div>
-                <div><div class="ft-contact-lbl">Operations</div><div class="ft-contact-val">Iraq · UAE · USA · Jordan</div></div>
+                <div><div class="ft-contact-lbl">Operations</div><div class="ft-contact-val">Iraq · Jordan · UAE · USA</div></div>
               </div>
             </div>
           </div>
