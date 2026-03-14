@@ -812,14 +812,14 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
 .acc-card.open { flex: 5.5; }
 .acc-bg {
   position: absolute; inset: 0; background-size: cover; background-position: center;
-  filter: grayscale(30%) brightness(.55);
+  filter: grayscale(30%) brightness(.35);
   transition: filter .65s var(--ease), transform .85s var(--ease);
 }
-.acc-card.open .acc-bg { filter: grayscale(0%) brightness(.70); }
-.acc-card:hover .acc-bg { filter: grayscale(0%) brightness(.65); transform: scale(1.05); }
+.acc-card.open .acc-bg { filter: grayscale(0%) brightness(.50); }
+.acc-card:hover .acc-bg { filter: grayscale(0%) brightness(.45); transform: scale(1.05); }
 .acc-shade {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(10,10,8,.60) 0%, rgba(10,10,8,.10) 50%, transparent 100%);
+  background: linear-gradient(to top, rgba(10,10,8,.80) 0%, rgba(10,10,8,.30) 50%, transparent 100%);
 }
 .acc-vert {
   position: absolute; left: 0; top: 0; bottom: 0;

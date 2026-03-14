@@ -157,7 +157,7 @@ app.get('/', (c) => {
         </div>
         <div class="accordion">
           <div class="acc-card open">
-            <div class="acc-bg" style="background-image:url('/static/jetour-g700.jpg')"></div>
+            <div class="acc-bg" style="background-image:url('/static/automotive-div.jpg')"></div>
             <div class="acc-shade"></div>
             <div class="acc-vert">Automotive</div>
             <div class="acc-ghost">01</div>
