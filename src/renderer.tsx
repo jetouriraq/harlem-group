@@ -2385,7 +2385,7 @@ footer {
   font-weight: 600; line-height: 1.12; letter-spacing: -1px;
   color: var(--white); margin: 20px 0 28px;
 }
-.car-hero-h1 em { font-style: italic; color: var(--gold-lt); }
+.car-hero-h1 em { font-style: italic; color: var(--ash); }
 .car-hero-sub {
   font-size: 16px; line-height: 1.75; color: rgba(255,255,255,.65);
   max-width: 600px; margin-bottom: 40px;
@@ -2457,12 +2457,12 @@ footer {
 }
 .car-job-apply {
   font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
-  font-weight: 600; color: var(--gold);
-  border: 1px solid var(--gold); padding: 10px 24px;
+  font-weight: 600; color: var(--ash);
+  border: 1px solid var(--ash); padding: 10px 24px;
   white-space: nowrap;
   transition: background .3s, color .3s;
 }
-.car-job-apply:hover { background: var(--gold); color: var(--white); }
+.car-job-apply:hover { background: var(--ash); color: var(--black); }
 
 /* Apply / CTA */
 .car-apply { background: var(--black); padding: var(--pad) 0; }
@@ -2475,7 +2475,7 @@ footer {
   font-size: clamp(28px, 3.5vw, 44px); font-weight: 600;
   color: var(--white); line-height: 1.2; margin: 20px 0 24px;
 }
-.car-apply-h2 em { font-style: italic; color: var(--gold-lt); }
+.car-apply-h2 em { font-style: italic; color: var(--ash); }
 .car-apply-body { font-size: 14.5px; line-height: 1.8; color: rgba(255,255,255,.6); }
 .car-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
 .car-input {
@@ -2488,7 +2488,7 @@ footer {
   box-sizing: border-box;
 }
 .car-input::placeholder { color: rgba(255,255,255,.3); }
-.car-input:focus { border-color: var(--gold); background: rgba(255,255,255,.08); }
+.car-input:focus { border-color: var(--ash); background: rgba(255,255,255,.08); }
 .car-select { cursor: pointer; }
 .car-select option { background: #1c1a18; color: #e8e0d4; }
 .car-textarea { min-height: 120px; resize: vertical; margin-bottom: 16px; display: block; }
@@ -2498,32 +2498,32 @@ footer {
 .car-upload-label {
   display: flex; align-items: center; gap: 14px;
   padding: 14px 18px; cursor: pointer;
-  border: 1px dashed rgba(193,155,90,.45);
-  background: rgba(193,155,90,.04);
+  border: 1px dashed rgba(208,206,201,.45);
+  background: rgba(208,206,201,.04);
   transition: border-color .3s, background .3s;
 }
-.car-upload-label:hover { border-color: var(--gold); background: rgba(193,155,90,.09); }
+.car-upload-label:hover { border-color: var(--ash); background: rgba(208,206,201,.09); }
 .car-upload-icon {
   width: 36px; height: 36px; flex-shrink: 0;
-  background: rgba(193,155,90,.15); border: 1px solid rgba(193,155,90,.3);
+  background: rgba(208,206,201,.12); border: 1px solid rgba(208,206,201,.3);
   display: flex; align-items: center; justify-content: center;
-  font-size: 16px; color: var(--gold);
+  font-size: 16px; color: var(--ash);
 }
 .car-upload-text { font-size: 13px; color: rgba(255,255,255,.85); font-weight: 500; }
 .car-upload-hint { font-size: 11px; color: rgba(255,255,255,.35); letter-spacing: .5px; margin-left: auto; }
 .car-upload-name {
   margin-top: 8px; font-size: 11px; letter-spacing: .5px;
-  color: var(--gold); padding-left: 4px;
+  color: var(--ash); padding-left: 4px;
 }
 .car-submit {
   width: 100%; padding: 16px;
-  background: var(--gold); color: var(--white);
+  background: var(--ash); color: var(--black);
   border: none; font-size: 11px; letter-spacing: 2.5px;
   text-transform: uppercase; font-weight: 600; cursor: pointer;
   font-family: inherit;
   transition: background .3s, transform .2s;
 }
-.car-submit:hover { background: var(--gold-dk); transform: translateY(-2px); }
+.car-submit:hover { background: var(--slate); color: var(--white); transform: translateY(-2px); }
 
 /* Responsive */
 @media (max-width: 1024px) {
