@@ -2339,7 +2339,7 @@ app.get('/locations', (c) => {
                 <h3 class="lloc-name">Jeep · Dodge · Chrysler · Ram — Iraq</h3>
                 <div class="lloc-cities">
                   <span class="lloc-city-dot"></span>
-                  Erbil · Baghdad · Kirkuk
+                  Erbil · Baghdad · Kirkuk · Najaf · Sulaymaniyah · Duhok
                 </div>
                 <p class="lloc-desc">Exclusive distributor of four iconic American brands across Iraq. <strong>Jeep</strong> holds the highest Grand Cherokee market share globally for 6 consecutive years. <strong>Ram</strong> ranks #1 globally in RAM 1500 sales. <strong>Dodge</strong> leads the E-Sedan market. <strong>Chrysler 300C</strong> dominates the executive luxury segment.</p>
               </div>
