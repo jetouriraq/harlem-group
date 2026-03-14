@@ -2763,38 +2763,6 @@ app.get('/locations', (c) => {
 
           </div>
 
-          {/* ── USA: Multi-brand Showroom ── */}
-          <div class="loc-cat-row r">
-            <span class="loc-cat-icon">◈</span>
-            <span class="loc-cat-name">Multi-brand Showroom</span>
-          </div>
-          <div class="loc-location-grid">
-            <div class="lloc-card r">
-              <div class="lloc-slider">
-                <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('/static/fiat-showroom.jpg')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/alfaromeo-showroom.jpg')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/maserati-showroom.jpg')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/alfaromeo-dealership.jpg')"></div>
-                </div>
-                <div class="lloc-photo-shade"></div>
-                <div class="lloc-country-chip"><img src="/static/flags/usa.png" alt=""/>USA</div>
-                <button class="lloc-arrow lloc-arrow--prev" aria-label="Previous photo">&#8249;</button>
-                <button class="lloc-arrow lloc-arrow--next" aria-label="Next photo">&#8250;</button>
-                <div class="lloc-dots"></div>
-              </div>
-              <div class="lloc-body">
-                <div class="lloc-type">Multi-brand Showroom</div>
-                <h3 class="lloc-name">Volume Cars</h3>
-                <div class="lloc-cities">
-                  <span class="lloc-city-dot"></span>
-                  Illinois, USA
-                </div>
-                <p class="lloc-desc"><strong>Harlem Group's flagship multi-brand showroom in the USA</strong> — housing Maserati, Alfa Romeo, and Fiat under one roof. Volume Cars is the premier destination for Italian luxury and performance in Illinois.</p>
-              </div>
-            </div>
-          </div>
-
 
         </div>{/* /container USA */}
       </section>
