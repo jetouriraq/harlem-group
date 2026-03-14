@@ -2669,9 +2669,19 @@ footer {
 
 /* Country banner */
 .loc-country-banner {
-  position: relative; height: 520px;
+  position: relative; height: 360px;
   background-size: cover; background-position: center 20%;
   display: flex; align-items: flex-end; overflow: hidden;
+}
+/* Video variant */
+.loc-country-banner--video { background: var(--black); }
+.loc-country-banner-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  border: none;
+  transform: scale(1.05);
 }
 .loc-country-banner-shade {
   position: absolute; inset: 0;
