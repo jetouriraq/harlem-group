@@ -2464,7 +2464,7 @@ app.get('/locations', (c) => {
           JORDAN
       ══════════════════════════════════════════ */}
       <section class="loc-country loc-country--alt" data-country="jordan" id="loc-jordan">
-        <div class="loc-country-banner" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1600&q=80')">
+        <div class="loc-country-banner" style="background-image:url('/static/jordan-hero.jpg')">
           <div class="loc-country-banner-shade"></div>
           <div class="container loc-country-banner-inner">
             <div class="loc-country-tag">02 / 04</div>
