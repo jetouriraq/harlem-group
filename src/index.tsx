@@ -2491,10 +2491,10 @@ app.get('/locations', (c) => {
             <div class="lloc-card lloc-card--featured r">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/vmdhRVPK.png')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/ZHttYQtW.png')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/wfoeiN9Z.png')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/wn0wH8yH.png')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/jetour-jordan-1.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/jetour-jordan-2.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/jetour-jordan-3.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/jetour-jordan/jetour-jordan-4.jpg')"></div>
                 </div>
                 <div class="lloc-photo-shade"></div>
                 <div class="lloc-country-chip"><img src="/static/flags/jordan.png" alt=""/>Jordan</div>
