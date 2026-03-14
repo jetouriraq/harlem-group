@@ -2589,9 +2589,7 @@ app.get('/locations', (c) => {
             <div class="lloc-card r">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80')"></div>
-                  <div class="lloc-slide" style="background-image:url('https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/uae-showrooms/harlem-cars-uae.jpg')"></div>
                 </div>
                 <div class="lloc-photo-shade"></div>
                 <div class="lloc-country-chip"><img src="/static/flags/uae.png" alt=""/>UAE</div>
