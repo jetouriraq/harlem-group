@@ -1191,11 +1191,11 @@ app.get('/highlights', (c) => {
             <div class="hl-profile-left">
               <div class="hl-profile-icon" aria-hidden="true">
                 <svg width="36" height="44" viewBox="0 0 36 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 0H22L36 14V40C36 42.2 34.2 44 32 44H4C1.8 44 0 42.2 0 40V4C0 1.8 1.8 0 4 0Z" fill="rgba(193,155,90,0.15)" stroke="rgba(193,155,90,0.6)" stroke-width="1"/>
-                  <path d="M22 0V14H36" stroke="rgba(193,155,90,0.6)" stroke-width="1" fill="none"/>
-                  <line x1="8" y1="22" x2="28" y2="22" stroke="rgba(193,155,90,0.5)" stroke-width="1.5"/>
-                  <line x1="8" y1="28" x2="24" y2="28" stroke="rgba(193,155,90,0.5)" stroke-width="1.5"/>
-                  <line x1="8" y1="34" x2="20" y2="34" stroke="rgba(193,155,90,0.5)" stroke-width="1.5"/>
+                  <path d="M4 0H22L36 14V40C36 42.2 34.2 44 32 44H4C1.8 44 0 42.2 0 40V4C0 1.8 1.8 0 4 0Z" fill="rgba(208,206,201,0.12)" stroke="rgba(208,206,201,0.5)" stroke-width="1"/>
+                  <path d="M22 0V14H36" stroke="rgba(208,206,201,0.5)" stroke-width="1" fill="none"/>
+                  <line x1="8" y1="22" x2="28" y2="22" stroke="rgba(208,206,201,0.45)" stroke-width="1.5"/>
+                  <line x1="8" y1="28" x2="24" y2="28" stroke="rgba(208,206,201,0.45)" stroke-width="1.5"/>
+                  <line x1="8" y1="34" x2="20" y2="34" stroke="rgba(208,206,201,0.45)" stroke-width="1.5"/>
                 </svg>
               </div>
               <div class="hl-profile-meta">

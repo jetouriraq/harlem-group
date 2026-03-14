@@ -2264,7 +2264,7 @@ footer {
 .hl-profile {
   background: var(--black);
   padding: 80px 0;
-  border-top: 1px solid rgba(193,155,90,.15);
+  border-top: 1px solid rgba(208,206,201,.15);
 }
 .hl-profile-inner {
   display: flex; align-items: center;
@@ -2284,7 +2284,7 @@ footer {
   font-weight: 400; line-height: 1.15;
   color: var(--white); margin-bottom: 18px;
 }
-.hl-profile-h2 em { font-style: italic; color: var(--gold-lt); }
+.hl-profile-h2 em { font-style: italic; color: var(--ash); }
 .hl-profile-body {
   font-size: 14px; line-height: 1.8;
   color: rgba(255,255,255,.5); max-width: 520px;
@@ -2294,22 +2294,22 @@ footer {
 .hl-profile-tag {
   font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
   padding: 4px 12px;
-  border: 1px solid rgba(193,155,90,.3);
-  color: rgba(193,155,90,.7);
+  border: 1px solid rgba(208,206,201,.3);
+  color: rgba(208,206,201,.7);
 }
 /* Download button */
 .hl-profile-btn {
   display: flex; align-items: center; gap: 20px;
   padding: 24px 36px;
-  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dk) 100%);
+  background: linear-gradient(135deg, var(--ash) 0%, var(--slate) 100%);
   color: var(--white); text-decoration: none;
   flex-shrink: 0;
   transition: transform .25s, box-shadow .25s;
-  box-shadow: 0 8px 32px rgba(193,155,90,.25);
+  box-shadow: 0 8px 32px rgba(208,206,201,.2);
 }
 .hl-profile-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 40px rgba(193,155,90,.4);
+  box-shadow: 0 14px 40px rgba(208,206,201,.3);
 }
 .hl-profile-btn-icon {
   font-size: 28px; line-height: 1;
