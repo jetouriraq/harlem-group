@@ -181,7 +181,7 @@ app.get('/', (c) => {
             </div>
           </div>
           <div class="acc-card">
-            <div class="acc-bg" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80')"></div>
+            <div class="acc-bg" style="background-image:url('/static/management-div.jpg')"></div>
             <div class="acc-shade"></div>
             <div class="acc-vert">Consulting</div>
             <div class="acc-ghost">03</div>
