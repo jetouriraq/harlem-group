@@ -427,17 +427,7 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
   display: none;
 }
 .hero-img-panel.show { opacity: 1; }
-.hero-seam {
-  position: absolute; top: 0; bottom: 0; left: 55%;
-  width: 1px;
-  background: linear-gradient(to bottom,
-    transparent 0%,
-    rgba(184,146,74,.6) 20%,
-    rgba(212,175,114,.9) 50%,
-    rgba(184,146,74,.6) 80%,
-    transparent 100%);
-  opacity: .4;
-}
+.hero-seam { display: none; }
 
 .hero-inner {
   position: relative; z-index: 10;
@@ -659,8 +649,8 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
 .founder-img-frame {
   position: absolute;
   top: 20px; right: -20px; bottom: -20px; left: 20px;
-  border: 1.5px solid var(--gold);
-  opacity: .45;
+  border: 1.5px solid var(--ash);
+  opacity: .6;
   pointer-events: none; z-index: 0;
 }
 /* photo container */
@@ -677,10 +667,10 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
   display: block;
 }
 .founder-right:hover .founder-img-wrap img { transform: scale(1.04); }
-/* gold inset frame border inside the photo */
+/* silver inset frame border inside the photo */
 .founder-img-inset {
   position: absolute; inset: 14px; z-index: 2;
-  border: 1.5px solid rgba(184,146,74,.55);
+  border: 1.5px solid rgba(208,206,201,.45);
   pointer-events: none;
 }
 /* badge */
