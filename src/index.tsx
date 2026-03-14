@@ -2224,14 +2224,24 @@ app.get('/locations', (c) => {
         <script>{`
           function setLocHero(country, label, el) {
             // switch image
-            document.querySelectorAll('.loc-hero-img').forEach(function(img){ img.classList.remove('active'); });
-            document.getElementById('lhi-' + country).classList.add('active');
+            document.querySelectorAll('.loc-hero-img').forEach(function(img){
+              img.classList.remove('active');
+              img.style.opacity = '0';
+            });
+            var target = document.getElementById('lhi-' + country);
+            target.classList.add('active');
+            target.style.opacity = '1';
             // switch label
             document.getElementById('loc-hero-country-name').textContent = label;
             // switch active pill
             document.querySelectorAll('.loc-hero-ctry').forEach(function(a){ a.classList.remove('active'); });
             el.classList.add('active');
           }
+          // init first image
+          window.addEventListener('DOMContentLoaded', function(){
+            var first = document.getElementById('lhi-iraq');
+            if(first) first.style.opacity = '1';
+          });
           // auto-rotate
           var _lhc = ['iraq','jordan','uae','usa'];
           var _lhl = ['Iraq','Jordan','UAE','USA'];
@@ -2239,7 +2249,7 @@ app.get('/locations', (c) => {
           setInterval(function(){
             _lhi = (_lhi + 1) % 4;
             var a = document.querySelectorAll('.loc-hero-ctry')[_lhi];
-            setLocHero(_lhc[_lhi], _lhl[_lhi], a);
+            if(a) setLocHero(_lhc[_lhi], _lhl[_lhi], a);
           }, 4000);
         `}</script>
       </section>
@@ -2975,10 +2985,11 @@ app.get('/locations', (c) => {
           }, {passive:true});
         })();
 
-        /* ── hero image fade-in ── */
-        document.querySelectorAll('.loc-hero-img').forEach(function(el,i){
-          setTimeout(function(){ el.style.opacity = '1'; }, 300 + i * 200);
-        });
+        /* ── hero image fade-in (only active image) ── */
+        setTimeout(function(){
+          var active = document.querySelector('.loc-hero-img.active');
+          if(active) active.style.opacity = '1';
+        }, 300);
       `}} />
     </>
   )
