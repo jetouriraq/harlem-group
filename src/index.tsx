@@ -2401,8 +2401,6 @@ app.get('/locations', (c) => {
             <div class="lloc-card r d1">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-exterior.jpg')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-warehouse.jpg')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/VZ17axNs.png')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/BJhYBJZB.png')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/eiPoKZED.png')"></div>
@@ -2420,11 +2418,41 @@ app.get('/locations', (c) => {
                   <span class="lloc-city-dot"></span>
                   Erbil · Baghdad · Kirkuk
                 </div>
-                <p class="lloc-desc">Official Mopar <strong>parts &amp; accessories distributor</strong> in Iraq — operating the <strong>City Parts Outlet (CPD)</strong>. Ensuring authentic OEM-quality parts are available to all FCA vehicle owners across the country.</p>
+                <p class="lloc-desc">Official Mopar <strong>parts &amp; accessories distributor</strong> in Iraq. Ensuring authentic OEM-quality parts are available to all FCA vehicle owners across the country.</p>
               </div>
             </div>
 
           </div>{/* /loc-location-grid — commercial agencies */}
+
+          {/* ── IRAQ: City Parts Outlet ── */}
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">City Parts Outlet</span>
+          </div>
+          <div class="loc-location-grid">
+            <div class="lloc-card lloc-card--featured r">
+              <div class="lloc-slider">
+                <div class="lloc-slides">
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-warehouse.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-exterior.jpg')"></div>
+                </div>
+                <div class="lloc-photo-shade"></div>
+                <div class="lloc-country-chip"><img src="/static/flags/iraq.png" alt=""/>Iraq</div>
+                <button class="lloc-arrow lloc-arrow--prev" aria-label="Previous photo">&#8249;</button>
+                <button class="lloc-arrow lloc-arrow--next" aria-label="Next photo">&#8250;</button>
+                <div class="lloc-dots"></div>
+              </div>
+              <div class="lloc-body">
+                <div class="lloc-type">Parts &amp; Accessories · Retail Outlet</div>
+                <h3 class="lloc-name">City Parts Outlet (CPD)</h3>
+                <div class="lloc-cities">
+                  <span class="lloc-city-dot"></span>
+                  Erbil, Iraq
+                </div>
+                <p class="lloc-desc">Harlem Group's dedicated <strong>automotive parts &amp; accessories retail outlet</strong> in Iraq — stocking genuine OEM-quality parts for all FCA and JETOUR vehicles, serving both retail customers and service centers nationwide.</p>
+              </div>
+            </div>
+          </div>
 
           {/* ── IRAQ: Multi-brand Showrooms ── */}
           <div class="loc-cat-row r">
