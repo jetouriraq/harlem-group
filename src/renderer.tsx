@@ -431,13 +431,15 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
 
 .hero-imgs {
   position: absolute; inset: 0;
-  display: grid; grid-template-columns: 1.1fr .9fr;
   pointer-events: none;
+  background-image: url('/static/hero-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 1;
 }
 .hero-img-panel {
-  background-size: cover; background-position: center;
-  opacity: 0; transition: opacity 2s var(--ease);
-  filter: grayscale(100%) brightness(.28);
+  display: none;
 }
 .hero-img-panel.show { opacity: 1; }
 .hero-seam {
