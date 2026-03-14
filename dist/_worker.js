@@ -418,8 +418,8 @@ body.c-click #cur-ring { width: 24px; height: 24px; }
   position: absolute; inset: 0;
   pointer-events: none;
   background-image: url('/static/hero-bg.png');
-  background-size: contain;
-  background-position: center;
+  background-size: auto;
+  background-position: center top;
   background-repeat: repeat;
   opacity: 1;
 }
