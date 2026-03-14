@@ -745,9 +745,7 @@ app.get('/', (c) => {
                 Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
@@ -1233,9 +1231,7 @@ app.get('/highlights', (c) => {
                 Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
@@ -1574,9 +1570,7 @@ app.get('/purpose', (c) => {
                 Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
@@ -1796,9 +1790,7 @@ app.get('/news', (c) => {
                 Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
@@ -2052,9 +2044,7 @@ app.get('/careers', (c) => {
                 Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
               </p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
@@ -2801,9 +2791,7 @@ app.get('/locations', (c) => {
               <div class="ft-slogan">Quality You Deserve!</div>
               <p class="ft-about">Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.</p>
               <div class="ft-socials">
-                <a href="#" class="ft-soc" aria-label="LinkedIn">in</a>
-                <a href="#" class="ft-soc" aria-label="Instagram">◈</a>
-                <a href="#" class="ft-soc" aria-label="Facebook">f</a>
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
               </div>
             </div>
             <div>
