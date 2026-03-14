@@ -2467,8 +2467,11 @@ app.get('/locations', (c) => {
             <div class="lloc-card lloc-card--featured r">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/2J7Fg0CA.png')"></div>
-                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/dgyB6Zsl.png')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/leather-1.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/leather-2.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/leather-3.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/leather-4.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-leather/leather-5.jpg')"></div>
                 </div>
                 <div class="lloc-photo-shade"></div>
                 <div class="lloc-country-chip"><img src="/static/flags/iraq.png" alt=""/>Iraq</div>
