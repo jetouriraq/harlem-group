@@ -3131,6 +3131,234 @@ footer {
   .np-photo-slider { height: 240px; }
   .np-hero-inner { padding-top: 120px; }
 }
+
+/* ═══════════════════════════════════════════════
+   CONTACT PAGE
+═══════════════════════════════════════════════ */
+
+/* Hero */
+.cp-hero {
+  position: relative; min-height: 420px;
+  display: flex; align-items: flex-end;
+  background: var(--black); overflow: hidden;
+  padding-bottom: 80px;
+}
+.cp-hero-bg {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(20,18,16,.98) 0%, rgba(30,26,22,.88) 100%);
+}
+.cp-hero-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(193,155,90,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(193,155,90,.05) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+.cp-hero-rings {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: flex-end;
+  pointer-events: none; overflow: hidden; padding-right: 80px;
+}
+.cp-hero-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(193,155,90,.08);
+  animation: contactRingPulse 4s ease-in-out infinite;
+}
+.cp-hero-ring:nth-child(1) { width:300px; height:300px; }
+.cp-hero-ring:nth-child(2) { width:500px; height:500px; animation-delay:.8s; }
+.cp-hero-ring:nth-child(3) { width:700px; height:700px; animation-delay:1.6s; }
+@keyframes contactRingPulse {
+  0%,100% { opacity:.4; transform:scale(1); }
+  50%      { opacity:.12; transform:scale(1.03); }
+}
+.cp-hero-inner {
+  position: relative; z-index: 2;
+  padding-top: 160px;
+}
+.cp-hero-h1 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 5.5vw, 78px);
+  font-weight: 500; color: var(--white);
+  line-height: 1.1; letter-spacing: -1.5px;
+  margin-bottom: 24px;
+}
+.cp-hero-h1 em { font-style: italic; color: var(--gold-lt); }
+.cp-hero-sub {
+  font-size: 15px; line-height: 1.75;
+  color: rgba(255,255,255,.55); max-width: 520px;
+}
+
+/* Info strip */
+.cp-info-strip {
+  background: var(--black);
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  padding: 40px 0;
+}
+.cp-info-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1px; background: rgba(255,255,255,.07);
+}
+.cp-info-cell {
+  background: var(--black);
+  padding: 36px 28px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.cp-info-icon {
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid rgba(193,155,90,.25);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--gold); margin-bottom: 4px;
+  flex-shrink: 0;
+}
+.cp-info-lbl {
+  font-size: 9px; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--gold); font-weight: 600;
+}
+.cp-info-val {
+  font-size: 13.5px; color: rgba(255,255,255,.8);
+  line-height: 1.55;
+}
+.cp-info-val a { color: rgba(255,255,255,.8); transition: color .25s; }
+.cp-info-val a:hover { color: var(--gold-lt); }
+
+/* Main contact area */
+.cp-main {
+  background: var(--white);
+  padding: 100px 0;
+}
+.cp-main-grid {
+  display: grid; grid-template-columns: 1fr 1.1fr;
+  gap: 80px; align-items: start;
+}
+
+/* Left: offices */
+.cp-offices-h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 500; color: var(--ink);
+  line-height: 1.2; letter-spacing: -.5px;
+  margin-bottom: 12px;
+}
+.cp-offices-h2 em { font-style: italic; color: var(--gold-dk); }
+.cp-offices-sub {
+  font-size: 13.5px; color: var(--slate);
+  line-height: 1.7; margin-bottom: 48px;
+  max-width: 380px;
+}
+.cp-office-list { display: flex; flex-direction: column; gap: 24px; }
+.cp-office-card {
+  border: 1px solid var(--silver);
+  padding: 24px 24px 24px 28px;
+  position: relative;
+  transition: border-color .3s, box-shadow .3s;
+}
+.cp-office-card::before {
+  content: '';
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: var(--gold);
+  transform: scaleY(0); transform-origin: bottom;
+  transition: transform .3s var(--ease);
+}
+.cp-office-card:hover { border-color: var(--ash); box-shadow: 0 4px 24px rgba(0,0,0,.06); }
+.cp-office-card:hover::before { transform: scaleY(1); }
+.cp-office-flag {
+  font-size: 22px; margin-bottom: 10px;
+}
+.cp-office-country {
+  font-size: 9px; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--gold-dk); font-weight: 600; margin-bottom: 6px;
+}
+.cp-office-name {
+  font-size: 15px; font-weight: 600; color: var(--ink);
+  margin-bottom: 10px;
+}
+.cp-office-details {
+  display: flex; flex-direction: column; gap: 5px;
+}
+.cp-office-detail {
+  font-size: 12.5px; color: var(--slate);
+  display: flex; align-items: baseline; gap: 8px;
+}
+.cp-office-detail strong { color: var(--charcoal); font-weight: 500; min-width: 56px; }
+
+/* Right: form */
+.cp-form-wrap {
+  background: var(--black);
+  padding: 48px 44px;
+  position: sticky; top: 100px;
+}
+.cp-form-h3 {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2vw, 30px);
+  font-weight: 500; color: var(--white);
+  margin-bottom: 8px; letter-spacing: -.3px;
+}
+.cp-form-h3 em { font-style: italic; color: var(--gold-lt); }
+.cp-form-sub {
+  font-size: 13px; color: rgba(255,255,255,.45);
+  margin-bottom: 36px; line-height: 1.65;
+}
+.cp-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.cp-input {
+  width: 100%; background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 14px 16px; font-family: var(--font);
+  font-size: 13px; color: var(--white);
+  transition: border-color .25s, background .25s;
+  outline: none; border-radius: 0;
+  -webkit-appearance: none; appearance: none;
+}
+.cp-input::placeholder { color: rgba(255,255,255,.28); }
+.cp-input:focus { border-color: var(--gold); background: rgba(255,255,255,.08); }
+.cp-textarea {
+  resize: none; height: 130px; margin-bottom: 14px;
+}
+.cp-select-wrap { position: relative; }
+.cp-select-wrap::after {
+  content: '▾';
+  position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+  color: var(--slate); pointer-events: none; font-size: 11px;
+}
+.cp-input option { background: #1c1a18; color: var(--white); }
+.cp-submit {
+  width: 100%; padding: 16px 28px;
+  background: var(--gold); color: var(--black);
+  font-family: var(--font); font-size: 11px;
+  letter-spacing: 2.5px; text-transform: uppercase; font-weight: 600;
+  cursor: pointer; transition: background .25s, transform .2s;
+  border: none; margin-top: 8px;
+}
+.cp-submit:hover { background: var(--gold-lt); transform: translateY(-2px); }
+.cp-submit:disabled {
+  background: var(--ash); cursor: not-allowed; transform: none;
+}
+.cp-success {
+  display: none;
+  padding: 20px 24px;
+  border: 1px solid rgba(193,155,90,.3);
+  background: rgba(193,155,90,.07);
+  text-align: center;
+  color: var(--gold-lt);
+  font-size: 13.5px; line-height: 1.65;
+  margin-top: 16px;
+}
+.cp-success.show { display: block; }
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .cp-info-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 900px) {
+  .cp-main-grid { grid-template-columns: 1fr; gap: 56px; }
+  .cp-form-wrap { position: static; padding: 36px 28px; }
+}
+@media (max-width: 640px) {
+  .cp-info-grid { grid-template-columns: 1fr; }
+  .cp-form-row { grid-template-columns: 1fr; }
+  .cp-hero { min-height: 340px; padding-bottom: 60px; }
+  .cp-main { padding: 64px 0; }
+}
         `}} />
       </head>
       <body>
@@ -3164,7 +3392,7 @@ footer {
               <a href="/locations" class="fs-link" data-text="Locations" onclick="closeFsMenu()">Locations</a>
               <a href="/news"       class="fs-link" data-text="News"      onclick="closeFsMenu()">News</a>
               <a href="/careers"   class="fs-link" data-text="Careers"   onclick="closeFsMenu()">Careers</a>
-              <a href="/#contact"   class="fs-link" data-text="Contact"  onclick="closeFsMenu()">Contact</a>
+              <a href="/contact"   class="fs-link" data-text="Contact"  onclick="closeFsMenu()">Contact</a>
             </nav>
             <div class="fs-sidebar">
               <div class="fs-sidebar-lbl">Get in Touch</div>
@@ -3182,7 +3410,7 @@ footer {
             <a href="/#founder">About HG</a>
             <a href="/#divisions">Divisions</a>
             <a href="/locations">Locations</a>
-            <a href="/#contact">Contact</a>
+            <a href="/contact">Contact</a>
           </div>
         </div>
 

@@ -28,7 +28,7 @@ app.get('/', (c) => {
           <a href="/careers"      class="nav-a">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -766,7 +766,7 @@ app.get('/', (c) => {
                 <a href="#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="#news">News &amp; Stories</a>
-                <a href="#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -870,7 +870,7 @@ app.get('/highlights', (c) => {
           <a href="/careers"       class="nav-a">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="/#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -1252,7 +1252,7 @@ app.get('/highlights', (c) => {
                 <a href="/#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="/news">News &amp; Stories</a>
-                <a href="/#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -1408,7 +1408,7 @@ app.get('/purpose', (c) => {
           <a href="/careers"       class="nav-a">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="/#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -1591,7 +1591,7 @@ app.get('/purpose', (c) => {
                 <a href="/#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="/news">News &amp; Stories</a>
-                <a href="/#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -1662,7 +1662,7 @@ app.get('/news', (c) => {
           <a href="/careers"       class="nav-a">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="/#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -1811,7 +1811,7 @@ app.get('/news', (c) => {
                 <a href="/#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="/news">News &amp; Stories</a>
-                <a href="/#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -1905,7 +1905,7 @@ app.get('/careers', (c) => {
           <a href="/careers"       class="nav-a active">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="/#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -2065,7 +2065,7 @@ app.get('/careers', (c) => {
                 <a href="/#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="/news">News &amp; Stories</a>
-                <a href="/#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -2145,7 +2145,7 @@ app.get('/locations', (c) => {
           <a href="/careers"    class="nav-a">Careers</a>
         </div>
         <div class="nav-right">
-          <a href="/#contact" class="nav-cta">Get in Touch</a>
+          <a href="/contact" class="nav-cta">Get in Touch</a>
           <button class="hamburger" id="fsBtn" aria-label="Open menu">
             <span></span><span></span><span></span>
           </button>
@@ -2167,7 +2167,7 @@ app.get('/locations', (c) => {
             <a href="/locations"  class="fs-link" data-text="Locations">Locations</a>
             <a href="/news"       class="fs-link" data-text="News">News</a>
             <a href="/careers"    class="fs-link" data-text="Careers">Careers</a>
-            <a href="/#contact"   class="fs-link" data-text="Contact">Contact</a>
+            <a href="/contact" class="fs-link" data-text="Contact">Contact</a>
           </nav>
           <div class="fs-sidebar">
             <div class="fs-sidebar-lbl">Get In Touch</div>
@@ -2778,7 +2778,7 @@ app.get('/locations', (c) => {
             <div class="loc-cta-label">Connect With Us</div>
             <h3 class="loc-cta-h3">Find a location near you</h3>
           </div>
-          <a href="/#contact" class="loc-cta-btn r d2">Get in Touch <span>→</span></a>
+          <a href="/contact" class="loc-cta-btn r d2">Get in Touch <span>→</span></a>
         </div>
       </div>
 
@@ -2812,7 +2812,7 @@ app.get('/locations', (c) => {
                 <a href="/#brands">Our Partners</a>
                 <a href="/locations">Locations</a>
                 <a href="/news">News &amp; Stories</a>
-                <a href="/#contact">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
@@ -2936,5 +2936,307 @@ app.get('/locations', (c) => {
 })
 
 
+
+/* ══════════════════════════════════════════════════════════
+   CONTACT PAGE
+══════════════════════════════════════════════════════════ */
+app.get('/contact', (c) => {
+  return c.render(
+    <>
+      {/* ══════════ NAVBAR ══════════ */}
+      <nav id="nav" class="scrolled nav-dark">
+        <a href="/" class="nav-logo">
+          <img src="/static/logo-white.png" alt="Harlem Group" id="navLogo" />
+        </a>
+        <div class="nav-links">
+          <div class="nav-item">
+            <a href="/#founder" class="nav-a">About</a>
+            <span class="nav-drop-arrow">▾</span>
+            <div class="nav-dropdown">
+              <a href="/purpose"    class="nav-drop-link">Our Purpose</a>
+              <a href="/highlights" class="nav-drop-link">Highlights</a>
+              <a href="/#divisions" class="nav-drop-link">Divisions</a>
+            </div>
+          </div>
+          <a href="/#brands"    class="nav-a">Partners</a>
+          <a href="/locations"  class="nav-a">Locations</a>
+          <a href="/news"       class="nav-a">News</a>
+          <a href="/careers"    class="nav-a">Careers</a>
+        </div>
+        <div class="nav-right">
+          <a href="/contact" class="nav-cta active">Get in Touch</a>
+          <button class="hamburger" id="fsBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+
+      {/* ══════════ HERO ══════════ */}
+      <section class="cp-hero">
+        <div class="cp-hero-bg"></div>
+        <div class="cp-hero-grid"></div>
+        <div class="cp-hero-rings" aria-hidden="true">
+          <div class="cp-hero-ring"></div>
+          <div class="cp-hero-ring"></div>
+          <div class="cp-hero-ring"></div>
+        </div>
+        <div class="container cp-hero-inner">
+          <div class="tag on-dark r">Get in Touch</div>
+          <h1 class="cp-hero-h1 r d1">Let's <em>Connect</em></h1>
+          <p class="cp-hero-sub r d2">
+            Whether you're looking for partnership opportunities, have questions about our brands, or simply want to learn more — we're here and happy to hear from you.
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════ INFO STRIP ══════════ */}
+      <div class="cp-info-strip">
+        <div class="container">
+          <div class="cp-info-grid">
+            <div class="cp-info-cell r">
+              <div class="cp-info-icon">✉</div>
+              <div class="cp-info-lbl">Email</div>
+              <div class="cp-info-val"><a href="mailto:info@harlem.group">info@harlem.group</a></div>
+            </div>
+            <div class="cp-info-cell r d1">
+              <div class="cp-info-icon">🏢</div>
+              <div class="cp-info-lbl">Headquarters</div>
+              <div class="cp-info-val">Erbil, Kurdistan Region, Iraq</div>
+            </div>
+            <div class="cp-info-cell r d2">
+              <div class="cp-info-icon">🌐</div>
+              <div class="cp-info-lbl">Operations</div>
+              <div class="cp-info-val">Iraq · Jordan · UAE · USA</div>
+            </div>
+            <div class="cp-info-cell r d3">
+              <div class="cp-info-icon">in</div>
+              <div class="cp-info-lbl">LinkedIn</div>
+              <div class="cp-info-val"><a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener">Harlem Group</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ══════════ MAIN CONTACT AREA ══════════ */}
+      <section class="cp-main">
+        <div class="container">
+          <div class="cp-main-grid">
+
+            {/* Left — Office locations */}
+            <div>
+              <h2 class="cp-offices-h2 r">Our <em>Offices</em></h2>
+              <p class="cp-offices-sub r d1">
+                Harlem Group has been operating since 1995, with regional hubs across four countries. Visit us at any of our offices.
+              </p>
+
+              <div class="cp-office-list">
+
+                <div class="cp-office-card r d1">
+                  <div class="cp-office-flag">🇮🇶</div>
+                  <div class="cp-office-country">Iraq · Headquarters</div>
+                  <div class="cp-office-name">Harlem Group — Iraq HQ</div>
+                  <div class="cp-office-details">
+                    <div class="cp-office-detail"><strong>City</strong> Erbil, Kurdistan Region</div>
+                    <div class="cp-office-detail"><strong>Also in</strong> Baghdad · Kirkuk · Najaf · Sulaymaniyah · Duhok</div>
+                    <div class="cp-office-detail"><strong>Email</strong> info@harlem.group</div>
+                  </div>
+                </div>
+
+                <div class="cp-office-card r d2">
+                  <div class="cp-office-flag">🇯🇴</div>
+                  <div class="cp-office-country">Jordan</div>
+                  <div class="cp-office-name">Harlem Group — Jordan</div>
+                  <div class="cp-office-details">
+                    <div class="cp-office-detail"><strong>City</strong> Amman</div>
+                    <div class="cp-office-detail"><strong>Focus</strong> Automotive · Commercial Agencies</div>
+                    <div class="cp-office-detail"><strong>Email</strong> info@harlem.group</div>
+                  </div>
+                </div>
+
+                <div class="cp-office-card r d3">
+                  <div class="cp-office-flag">🇦🇪</div>
+                  <div class="cp-office-country">United Arab Emirates</div>
+                  <div class="cp-office-name">Harlem Group — UAE</div>
+                  <div class="cp-office-details">
+                    <div class="cp-office-detail"><strong>City</strong> Dubai (DUCAMZ)</div>
+                    <div class="cp-office-detail"><strong>Focus</strong> Showrooms · Stockyard · Regional Hub</div>
+                    <div class="cp-office-detail"><strong>Email</strong> info@harlem.group</div>
+                  </div>
+                </div>
+
+                <div class="cp-office-card r d4">
+                  <div class="cp-office-flag">🇺🇸</div>
+                  <div class="cp-office-country">United States</div>
+                  <div class="cp-office-name">Harlem Group — North America</div>
+                  <div class="cp-office-details">
+                    <div class="cp-office-detail"><strong>State</strong> Illinois</div>
+                    <div class="cp-office-detail"><strong>Focus</strong> Luxury Brands · Car Rental · Real Estate</div>
+                    <div class="cp-office-detail"><strong>Email</strong> info@harlem.group</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            {/* Right — Contact form */}
+            <div>
+              <div class="cp-form-wrap r">
+                <h3 class="cp-form-h3">Send Us a <em>Message</em></h3>
+                <p class="cp-form-sub">Fill in the form below and our team will get back to you within 24–48 hours.</p>
+
+                <form id="cpForm" novalidate>
+                  <div class="cp-form-row">
+                    <input type="text"  id="cpName"    class="cp-input" placeholder="Full Name *" required />
+                    <input type="email" id="cpEmail"   class="cp-input" placeholder="Email Address *" required />
+                  </div>
+                  <div class="cp-form-row">
+                    <input type="text"  id="cpPhone"   class="cp-input" placeholder="Phone Number" />
+                    <div class="cp-select-wrap">
+                      <select id="cpCountry" class="cp-input">
+                        <option value="">Country / Office</option>
+                        <option value="iraq">Iraq</option>
+                        <option value="jordan">Jordan</option>
+                        <option value="uae">UAE</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="cp-select-wrap" style="margin-bottom:14px">
+                    <select id="cpTopic" class="cp-input">
+                      <option value="">Topic / Department</option>
+                      <option value="automotive">Automotive — Sales &amp; Agencies</option>
+                      <option value="service">Automotive — After-Sales &amp; Service</option>
+                      <option value="realestate">Real Estate</option>
+                      <option value="consultation">Management Consultation</option>
+                      <option value="careers">Careers &amp; HR</option>
+                      <option value="media">Media &amp; Press</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <input type="text" id="cpSubject" class="cp-input" placeholder="Subject *" required style="width:100%;margin-bottom:14px;" />
+                  <textarea id="cpMessage" class="cp-input cp-textarea" placeholder="Your message *" required></textarea>
+                  <button type="submit" class="cp-submit" id="cpSubmitBtn">Send Message →</button>
+                  <div class="cp-success" id="cpSuccess">
+                    ✓&nbsp; Thank you! Your message has been received.<br/>
+                    We'll get back to you within 24–48 hours.
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════ FOOTER ══════════ */}
+      <footer>
+        <div class="container">
+          <div class="ft-grid">
+            <div>
+              <img src="/static/logo-white.png" alt="Harlem Group" class="ft-logo" />
+              <div class="ft-slogan">Quality You Deserve!</div>
+              <p class="ft-about">
+                Harlem Group — a beacon of excellence since 1995. Operating across Automotive, Real Estate, and Management Consultation across Iraq, Jordan, UAE, and USA.
+              </p>
+              <div class="ft-socials">
+                <a href="https://www.linkedin.com/company/harlemgroup" target="_blank" rel="noopener" class="ft-soc" aria-label="LinkedIn">in</a>
+              </div>
+            </div>
+            <div>
+              <div class="ft-col-h">Divisions</div>
+              <div class="ft-links">
+                <a href="/#auto-services">Automotive Division</a>
+                <a href="/#realestate">Real Estate</a>
+                <a href="/#consulting">Management Consultation</a>
+                <a href="/news">News &amp; Stories</a>
+              </div>
+            </div>
+            <div>
+              <div class="ft-col-h">Company</div>
+              <div class="ft-links">
+                <a href="/#founder">About Harlem Group</a>
+                <a href="/purpose">Vision &amp; Mission</a>
+                <a href="/highlights">Achievements</a>
+                <a href="/#brands">Our Partners</a>
+                <a href="/locations">Locations</a>
+                <a href="/news">News &amp; Stories</a>
+                <a href="/contact">Contact</a>
+              </div>
+            </div>
+            <div>
+              <div class="ft-col-h">Contact</div>
+              <div class="ft-contact-row">
+                <div><div class="ft-contact-lbl">Email</div><div class="ft-contact-val">info@harlem.group</div></div>
+                <div><div class="ft-contact-lbl">Operations</div><div class="ft-contact-val">Iraq · Jordan · UAE · USA</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="ft-bottom">
+            <span>© 2025 Harlem Group. All rights reserved.</span>
+            <div style="display:flex;gap:28px"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></div>
+          </div>
+        </div>
+      </footer>
+
+      <script dangerouslySetInnerHTML={{ __html: `
+        /* ── Contact form handler ── */
+        (function(){
+          var form = document.getElementById('cpForm');
+          var btn  = document.getElementById('cpSubmitBtn');
+          var succ = document.getElementById('cpSuccess');
+          if(!form) return;
+          form.addEventListener('submit', function(e){
+            e.preventDefault();
+            var name    = document.getElementById('cpName').value.trim();
+            var email   = document.getElementById('cpEmail').value.trim();
+            var subject = document.getElementById('cpSubject').value.trim();
+            var message = document.getElementById('cpMessage').value.trim();
+            if(!name || !email || !subject || !message){
+              alert('Please fill in all required fields (Name, Email, Subject, Message).');
+              return;
+            }
+            if(!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(email)){
+              alert('Please enter a valid email address.');
+              return;
+            }
+            /* Build mailto link as fallback — replace with API call when backend ready */
+            var country = document.getElementById('cpCountry').value;
+            var topic   = document.getElementById('cpTopic').value;
+            var phone   = document.getElementById('cpPhone').value.trim();
+            var body = 'Name: ' + name + '\\n'
+                     + 'Email: ' + email + '\\n'
+                     + (phone   ? 'Phone: '   + phone   + '\\n' : '')
+                     + (country ? 'Country: ' + country + '\\n' : '')
+                     + (topic   ? 'Topic: '   + topic   + '\\n' : '')
+                     + '\\nMessage:\\n' + message;
+            btn.disabled = true;
+            btn.textContent = 'Sending…';
+            /* Simulate a short delay then show success */
+            setTimeout(function(){
+              window.location.href = 'mailto:info@harlem.group'
+                + '?subject=' + encodeURIComponent(subject)
+                + '&body='    + encodeURIComponent(body);
+              btn.style.display = 'none';
+              succ.classList.add('show');
+            }, 600);
+          });
+        })();
+
+        /* scroll-reveal */
+        (function(){
+          var els = document.querySelectorAll('.r');
+          if(!els.length) return;
+          var io = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+              if(e.isIntersecting){ e.target.classList.add('v'); io.unobserve(e.target); }
+            });
+          },{threshold:.1,rootMargin:'0px 0px -48px 0px'});
+          els.forEach(function(el){ io.observe(el); });
+        })();
+      `}} />
+    </>
+  )
+})
 
 export default app
