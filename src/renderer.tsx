@@ -2669,8 +2669,8 @@ footer {
 
 /* Country banner */
 .loc-country-banner {
-  position: relative; height: 420px;
-  background-size: cover; background-position: center;
+  position: relative; height: 520px;
+  background-size: cover; background-position: center 20%;
   display: flex; align-items: flex-end; overflow: hidden;
 }
 .loc-country-banner-shade {
