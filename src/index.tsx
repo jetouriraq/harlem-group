@@ -2198,7 +2198,7 @@ app.get('/locations', (c) => {
       <section class="loc-hero">
         <div class="loc-hero-bg"></div>
         <div class="loc-hero-imgs">
-          <div class="loc-hero-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80')"></div>
+          <div class="loc-hero-img" style="background-image:url('/static/iraq-hero.jpg')"></div>
           <div class="loc-hero-img loc-hero-img--2" style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80')"></div>
           <div class="loc-hero-img loc-hero-img--3" style="background-image:url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1400&q=80')"></div>
           <div class="loc-hero-img loc-hero-img--4" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1400&q=80')"></div>
@@ -2258,7 +2258,7 @@ app.get('/locations', (c) => {
           IRAQ
       ══════════════════════════════════════════ */}
       <section class="loc-country" data-country="iraq" id="loc-iraq">
-        <div class="loc-country-banner" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80')">
+        <div class="loc-country-banner" style="background-image:url('/static/iraq-hero.jpg')">
           <div class="loc-country-banner-shade"></div>
           <div class="container loc-country-banner-inner">
             <div class="loc-country-tag">01 / 04</div>

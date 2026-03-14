@@ -2675,7 +2675,7 @@ footer {
 }
 .loc-country-banner-shade {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.3) 60%, rgba(0,0,0,.1) 100%);
+  background: linear-gradient(to top, rgba(0,0,0,.92) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.25) 100%);
 }
 .loc-country-banner-inner {
   position: relative; z-index: 2;
