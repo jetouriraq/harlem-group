@@ -2299,16 +2299,17 @@ app.get('/locations', (c) => {
               <h2 class="loc-country-title">Iraq</h2>
             </div>
             <p class="loc-country-desc">Harlem Group's founding market — home to its largest automotive network, exclusive brand agencies, multi-brand showrooms, and Iraq's only luxury upholstery factory.</p>
-            <div class="loc-country-pills">
-              <span class="loc-pill">Commercial Agencies</span>
-              <span class="loc-pill">Multi-brand Showrooms</span>
-              <span class="loc-pill">Leather &amp; Upholstery</span>
-            </div>
+
           </div>
         </div>
 
         {/* ── IRAQ: Commercial Agencies ── */}
         <div class="container">
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Commercial Agencies</span>
+            <span class="loc-cat-count">5 brands</span>
+          </div>
 
 
           <div class="loc-location-grid">
@@ -2400,6 +2401,8 @@ app.get('/locations', (c) => {
             <div class="lloc-card r d1">
               <div class="lloc-slider">
                 <div class="lloc-slides">
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-exterior.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-warehouse.jpg')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/VZ17axNs.png')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/BJhYBJZB.png')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/eiPoKZED.png')"></div>
@@ -2417,13 +2420,17 @@ app.get('/locations', (c) => {
                   <span class="lloc-city-dot"></span>
                   Erbil · Baghdad · Kirkuk
                 </div>
-                <p class="lloc-desc">Official Mopar <strong>parts &amp; accessories distributor</strong> in Iraq. Ensuring authentic OEM-quality parts are available to all FCA vehicle owners across the country.</p>
+                <p class="lloc-desc">Official Mopar <strong>parts &amp; accessories distributor</strong> in Iraq — operating the <strong>City Parts Outlet (CPD)</strong>. Ensuring authentic OEM-quality parts are available to all FCA vehicle owners across the country.</p>
               </div>
             </div>
 
           </div>{/* /loc-location-grid — commercial agencies */}
 
           {/* ── IRAQ: Multi-brand Showrooms ── */}
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Multi-brand Showrooms</span>
+          </div>
           <div class="loc-location-grid">
             <div class="lloc-card r">
               <div class="lloc-slider">
@@ -2450,7 +2457,11 @@ app.get('/locations', (c) => {
           </div>
 
           {/* ── IRAQ: Leather & Upholstery ── */}
-
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Leather &amp; Upholstery Factory</span>
+            <span class="loc-cat-count">Iraq's Only</span>
+          </div>
           <div class="loc-location-grid">
             <div class="lloc-card lloc-card--featured r">
               <div class="lloc-slider">
@@ -2496,15 +2507,17 @@ app.get('/locations', (c) => {
               <h2 class="loc-country-title">Jordan</h2>
             </div>
             <p class="loc-country-desc">Harlem Group's MENA expansion hub — exclusive Chinese brand agencies and strategic management consultation operations, anchored in Amman.</p>
-            <div class="loc-country-pills">
-              <span class="loc-pill">Commercial Agencies</span>
-            </div>
+
           </div>
         </div>
 
         <div class="container">
           {/* ── Jordan: Commercial Agencies ── */}
-
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Commercial Agencies</span>
+            <span class="loc-cat-count">1 brand</span>
+          </div>
           <div class="loc-location-grid">
 
             <div class="lloc-card lloc-card--featured r">
@@ -2554,16 +2567,17 @@ app.get('/locations', (c) => {
               <h2 class="loc-country-title">United Arab Emirates</h2>
             </div>
             <p class="loc-country-desc">Harlem Group's regional hub — featuring multi-brand showrooms in DUCAMZ and a 6-storey central stockyard in Jebel Ali Free Zone.</p>
-            <div class="loc-country-pills">
-              <span class="loc-pill">Multi-brand Showrooms</span>
-              <span class="loc-pill">Regional Stockyard</span>
-            </div>
+
           </div>
         </div>
 
         <div class="container">
           {/* ── UAE: Multi-brand Showrooms ── */}
-
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Multi-brand Showrooms</span>
+            <span class="loc-cat-count">Dubai — DUCAMZ</span>
+          </div>
           <div class="loc-location-grid">
 
             <div class="lloc-card r">
@@ -2613,7 +2627,11 @@ app.get('/locations', (c) => {
           </div>
 
           {/* ── UAE: Central Regional Stockyard ── */}
-
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Central Regional Stockyard</span>
+            <span class="loc-cat-count">Jebel Ali Free Zone</span>
+          </div>
           <div class="loc-location-grid">
             <div class="lloc-card lloc-card--dark r">
               <div class="lloc-slider">
@@ -2659,18 +2677,17 @@ app.get('/locations', (c) => {
               <h2 class="loc-country-title">United States</h2>
             </div>
             <p class="loc-country-desc">Harlem Group's North American division — operating luxury brand agencies, multi-brand showrooms, certified service centers, car rental, and real estate entities across Illinois.</p>
-            <div class="loc-country-pills">
-              <span class="loc-pill">Commercial Agencies</span>
-              <span class="loc-pill">Service Centers</span>
-              <span class="loc-pill">Car Rental</span>
-              <span class="loc-pill">Real Estate</span>
-            </div>
+
           </div>
         </div>
 
         <div class="container">
           {/* ── USA: Commercial Agencies ── */}
-
+          <div class="loc-cat-row r">
+            <span class="loc-cat-icon">◈</span>
+            <span class="loc-cat-name">Commercial Agencies</span>
+            <span class="loc-cat-count">Illinois</span>
+          </div>
           <div class="loc-location-grid">
 
             <div class="lloc-card lloc-card--featured r" style="grid-column: span 2;">
