@@ -2433,8 +2433,8 @@ app.get('/locations', (c) => {
             <div class="lloc-card lloc-card--featured r">
               <div class="lloc-slider">
                 <div class="lloc-slides">
-                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-warehouse.jpg')"></div>
                   <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-exterior.jpg')"></div>
+                  <div class="lloc-slide" style="background-image:url('/static/locations/iraq-mopar/cpd-warehouse.jpg')"></div>
                 </div>
                 <div class="lloc-photo-shade"></div>
                 <div class="lloc-country-chip"><img src="/static/flags/iraq.png" alt=""/>Iraq</div>
