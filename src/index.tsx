@@ -417,13 +417,48 @@ app.get('/', (c) => {
               </div>
             </div>
 
+            {/* ── JORDAN ── */}
+            <div class="glo-country" id="glo-jordan">
+              <button class="glo-country-btn" onclick="gloToggle('jordan')" aria-expanded="false">
+                <div class="glo-country-left">
+                  <img src="/static/flags/jordan.png" class="glo-flag" alt="Jordan" />
+                  <span class="glo-country-name">Jordan</span>
+                  <span class="glo-country-num">02</span>
+                </div>
+                <span class="glo-chevron">›</span>
+              </button>
+              <div class="glo-country-body" id="glo-jordan-body">
+                {/* Category: Commercial Agencies */}
+                <div class="glo-cat" id="glo-jordan-cat0">
+                  <button class="glo-cat-btn" onclick="gloCatToggle('jordan',0)" aria-expanded="false">
+                    <span class="glo-cat-icon">◈</span>
+                    <span class="glo-cat-name">Commercial Agencies</span>
+                    <span class="glo-cat-count">3 entities</span>
+                    <span class="glo-chevron">›</span>
+                  </button>
+                  <div class="glo-cat-body" id="glo-jordan-cat0-body">
+                    <div class="glo-entity">Jetour</div>
+                    <div class="glo-entity">Soueast</div>
+                    <div class="glo-entity">Karry</div>
+                  </div>
+                </div>
+                {/* Category: Management Consultation */}
+                <div class="glo-cat glo-cat--flat" id="glo-jordan-cat1">
+                  <div class="glo-cat-flat-row">
+                    <span class="glo-cat-icon">◈</span>
+                    <span class="glo-cat-name">Management Consultation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* ── UAE ── */}
             <div class="glo-country" id="glo-uae">
               <button class="glo-country-btn" onclick="gloToggle('uae')" aria-expanded="false">
                 <div class="glo-country-left">
                   <img src="/static/flags/uae.png" class="glo-flag" alt="UAE" />
                   <span class="glo-country-name">UAE</span>
-                  <span class="glo-country-num">02</span>
+                  <span class="glo-country-num">03</span>
                 </div>
                 <span class="glo-chevron">›</span>
               </button>
@@ -474,7 +509,7 @@ app.get('/', (c) => {
                 <div class="glo-country-left">
                   <img src="/static/flags/usa.png" class="glo-flag" alt="USA" />
                   <span class="glo-country-name">USA</span>
-                  <span class="glo-country-num">03</span>
+                  <span class="glo-country-num">04</span>
                 </div>
                 <span class="glo-chevron">›</span>
               </button>
@@ -533,41 +568,6 @@ app.get('/', (c) => {
                   <div class="glo-cat-body" id="glo-usa-cat5-body">
                     <div class="glo-entity">A&amp;F Holdings LLC</div>
                     <div class="glo-entity">Jidd Holdings LLC</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* ── JORDAN ── */}
-            <div class="glo-country" id="glo-jordan">
-              <button class="glo-country-btn" onclick="gloToggle('jordan')" aria-expanded="false">
-                <div class="glo-country-left">
-                  <img src="/static/flags/jordan.png" class="glo-flag" alt="Jordan" />
-                  <span class="glo-country-name">Jordan</span>
-                  <span class="glo-country-num">04</span>
-                </div>
-                <span class="glo-chevron">›</span>
-              </button>
-              <div class="glo-country-body" id="glo-jordan-body">
-                {/* Category: Commercial Agencies */}
-                <div class="glo-cat" id="glo-jordan-cat0">
-                  <button class="glo-cat-btn" onclick="gloCatToggle('jordan',0)" aria-expanded="false">
-                    <span class="glo-cat-icon">◈</span>
-                    <span class="glo-cat-name">Commercial Agencies</span>
-                    <span class="glo-cat-count">3 entities</span>
-                    <span class="glo-chevron">›</span>
-                  </button>
-                  <div class="glo-cat-body" id="glo-jordan-cat0-body">
-                    <div class="glo-entity">Jetour</div>
-                    <div class="glo-entity">Soueast</div>
-                    <div class="glo-entity">Karry</div>
-                  </div>
-                </div>
-                {/* Category: Management Consultation */}
-                <div class="glo-cat glo-cat--flat" id="glo-jordan-cat1">
-                  <div class="glo-cat-flat-row">
-                    <span class="glo-cat-icon">◈</span>
-                    <span class="glo-cat-name">Management Consultation</span>
                   </div>
                 </div>
               </div>
